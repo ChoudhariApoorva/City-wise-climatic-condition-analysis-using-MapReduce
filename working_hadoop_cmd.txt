@@ -1,0 +1,2 @@
+$HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/contrib/streaming/hadoop-*streaming*.jar -file /home/hduser/mapper.py    -mapper /home/hduser/mapper.py -file /home/hduser/reducer.py   -reducer /home/hduser/reducer.py -input /user/hduser/gutenberg/* -output /user/hduser/gutenberg-output
+
